@@ -1,0 +1,169 @@
+body {
+	background: #668570;
+}
+
+/*  HEADER  */
+#header {
+	margin-left: 5px;
+	width: 581px;
+	padding-bottom: 1px;
+	padding-left: 60px;
+	padding-top: 7px !important;
+	padding-top: 28px;
+}
+
+#header h1 {
+	font-family: trebuchet MS, arial, times, helvetica, arial, sans-serif;
+	font-size: 33px;
+	color: #000;
+	font-weight: normal;
+}
+
+/*  CONTAINER BOX  */
+#box {
+	background-image: url(../images/layouts/notepad/notebookPaper.gif);
+	width: 661px;
+	margin: auto;
+}
+
+#box p {
+	padding-left: 20px;
+}
+
+/* MAIN CONTENT */
+#content p {
+
+}
+
+#content h2.first {
+	margin: 0 0 0 20px;	
+}
+
+#content h2 {
+	margin: 40px 0 0 20px;	
+}
+
+#content {
+	width: 580px;
+	margin-left: 45px;
+	margin-top: 23px !important;
+	margin-top: 28px;
+	font-family: verdana, arial, times, helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #404040;
+	line-height: 1.8em !important;
+	line-height: 1.75em;
+}
+
+#content ul {
+	margin: -7px 0 0 15px;	
+}
+
+/*TOP NAVIGATION*/
+#nav {
+	float: right;
+	margin-top: -48px !important;
+	margin-top: -45px;
+	margin-right: 37px;
+	font-family: verdana, arial, times, helvetica, arial, sans-serif;
+	font-size: 15px;
+}
+
+#nav a,#content a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#nav a:hover,#content a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.sub {
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 13px;
+	font-family: trebuchet MS, arial, times, helvetica, arial, sans-serif;
+	color: #000;
+}
+
+/*FOOTER PROPERTIES*/
+#footer {
+	width: 581px;
+	color: #000;
+	padding-bottom: 10px;
+	padding-top: 3px;
+	font-family: verdana, arial, times, helvetica, arial, sans-serif;
+	font-size: 11px;
+	margin-bottom: 3px;
+	margin-left: 15px !important;
+	margin-left: 20px;
+	line-height: 1.75em;
+	height: 40px;
+	text-align: center;
+}
+
+#footer a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+
+code {
+	color: #111;
+	font-weight: bold;
+	background-color: #ddd;
+}
+
+
+/*RAW DATA */
+span.rawData {
+	color:#333;
+	font-size:10pt;
+	font-weight:bold;
+	background-color:#eee;	
+}
+
+div.rawData {
+	color:#333;
+	font-size:10pt;
+	font-weight:bold;
+	background-color:#eee;	
+}
+
+span.rawDataEmpty {
+	color:red;
+	font-size:8pt;	
+}
+
+span.rawDataExtra {
+	color:navy;
+	font-size:10pt;
+	font-weight:bold;
+	background-color:#ccc;
+}
+
+span.rawDataExtra a {
+	color:#000;
+	font-size:10pt;
+	font-weight:bold;
+	background-color:#ccc;
+	text-decoration: underline;
+}
+
+span.rawDataError {
+	color:red;
+	font-size:10pt;
+	font-weight:normal;
+}
+
+span.rawDataDataType {
+	color:#555;
+	font-size:11pt;
+	font-weight:normal;
+}

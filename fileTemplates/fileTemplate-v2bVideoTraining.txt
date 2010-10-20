@@ -1,0 +1,11 @@
+==videoTraining
+idCode::v2b-nnnnnnnnnnn-german
+title::Video2Brain nnnnnnnnnnnn (German)
+url::nnnnnnnnnnnnnnnnnnnnn
+description::A video on the basics of nnnnnnnnnnnnn.
+contents::[[
+@@content
+]]
+rank::3.0   
+prefixTitle::nnnnnnnnn
+extras::

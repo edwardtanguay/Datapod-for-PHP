@@ -1,0 +1,40 @@
+==pageItem
+idCode::home
+menu::main
+title::Home
+description::
+kind::system
+accessGroups::loggedInUsers,loggedOutUsers
+displayOrder::999
+extras::
+
+==pageItem
+idCode::info
+menu::main
+title::Info
+description::This is the info site.
+kind::system
+accessGroups::loggedInUsers,loggedOutUsers
+displayOrder::999
+extras::
+
+
+==pageItem
+idCode::about
+menu::main
+title::About
+description::This site was created with <a href="http://www.tanguay.info/datapod">Datapod for PHP</a>.
+kind::system
+accessGroups::loggedInUsers,loggedOutUsers
+displayOrder::999
+extras::
+
+**Page Items
+Id Code
+Menu
+Title
+Description;p
+Kind
+Access Groups
+Display Order;wn
+Extras

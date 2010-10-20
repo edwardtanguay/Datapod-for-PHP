@@ -1,0 +1,713 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(../images/layouts/communication/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #787878;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F93D00;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 900px;
+	height: 100px;
+	margin: 0;
+	background: url(../images/layouts/communication/img05.jpg) no-repeat left 25px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+ }
+
+#logo h1 {
+	padding-top: 25px;
+	padding-left: 60px;
+	letter-spacing: -1px;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+#logo p {
+	margin-top: -6px;
+	padding-left: 62px;
+	font-size: 11px;
+	color: #000000;
+} 
+
+#logo p a {
+	color: #000000;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: brown;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 230px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 70px 0 0 0px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 210px;
+	border: none;
+	text-transform: lowercase;
+	font: bold 1.2em Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 900px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	height: 40px;
+	padding-top: 10px;
+	background: url(../images/layouts/communication/img04.gif) no-repeat left 16px;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 17px;
+	border: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+}
+
+#menu .current_page_item a {
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 635px;
+}
+
+.post {
+	margin-bottom: 8px;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .mainTitle {
+	background: url(../images/layouts/communication/img03.jpg) no-repeat left top;
+	height: 25px;
+	padding: 7px 0 0 35px;
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.post .mainTitle span.lowLight {
+	color: #777;
+}
+
+.post .mainTitle a {
+	color: #000000;
+}
+
+.post .meta {
+	padding-left: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.post .meta a:hover {
+	text-decoration: underline;
+}
+
+.post .entry {
+	padding: 0px 20px 15px 20px;
+	text-align: justify;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 250px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	padding-bottom: 20px;
+}
+
+#sidebar li li {
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 35px;
+	border-bottom: 1px dashed #D2D4C9;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 25px;
+	padding: 5px 0 0 35px;
+	background: url(../images/layouts/communication/img02.jpg) no-repeat left top;
+	font-size: 12px;
+	color: #444;
+}
+
+#sidebar p {
+	margin: 0 15px;
+	padding: 10px 0 20px 0;
+	text-align: justify;
+	color:#555;
+}
+
+#sidebar a {
+	color: #000000;
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	background: #2C2C2C;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#footer a {
+	color: #969696;
+}
+
+
+
+/*RAW DATA */
+span.rawData {
+	color: #333;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #eee;
+}
+
+div.rawData {
+	color: #333;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #eee;
+}
+
+span.rawDataEmpty {
+	color: red;
+	font-size: 8pt;
+}
+
+span.rawDataExtra {
+	color: navy;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #ccc;
+}
+
+span.rawDataExtra a {
+	color: #000;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #ccc;
+	text-decoration: underline;
+}
+
+span.rawDataError {
+	color: red;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+span.rawDataDataType {
+	color: #555;
+	font-size: 11pt;
+	font-weight: normal;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+/*sessionS*/
+div.session {
+	margin: 0 0 0 0;
+}
+
+div.session p {
+	margin: 0;
+}
+
+div.sessionViewSingle .title {
+	font-size: 16pt;
+}
+
+div.sessionViewSingle div.subtitle {
+	font-size: 8pt;
+	line-height: 100%;
+	background-color: #ddd;
+	margin: 2px 0 0 23px;
+	padding: 2px;
+}
+
+/*VIDEOS*/
+div.video {
+	margin: 0 0 0 0;
+}
+
+#content div.video p {
+	margin: 0;
+	font-size: 10pt;
+}
+
+.entry div.video p.title {
+	color:#555;	
+}
+.entry div.video p.title a {
+	color:#000;	
+}
+.entry div.video p.title a:hover {
+	text-decoration: underline;	
+}
+
+div.videoViewSingle .title {
+	font-size: 16pt;
+}
+
+div.videoViewSingle div.subtitle {
+	font-size: 8pt;
+	line-height: 100%;
+	background-color: #ddd;
+	margin: 2px 0 0 23px;
+	padding: 2px;
+}
+
+div.videoViewSingle p.summary {
+	margin: 20px;
+	color: red;
+	line-height: 100%;
+}
+
+div.videoViewSingle div.summary div.label {
+	color: orange;
+	margin: -10px 0 0 15px;
+}
+
+div.videoViewSingle div.summary div.content {
+	color: #000;
+	margin: 0 0 -20px 15px;
+	padding: 0 0 0 0;
+	line-height: 110%;
+	font-size: 14pt;
+	font-style: italic;
+	text-align: left;
+}
+
+ul.notes {
+	padding: 25px 0 0 35px;
+}
+
+ul.notes li {
+	margin: 0 0 10px 0;
+	line-height: 130%;
+	font-size: 12pt;
+}
+
+ul.notes2 {
+	padding: 20px 0 0 15px;
+}
+
+ul.notes2 li {
+	margin: 0 0 15px 0;
+	line-height: 90%;
+	list-style: disc;
+}
+
+li img {
+	margin: 10px 0 0 0;
+}
+
+div.submenu {
+	margin: -10px 0 20px 20px;
+}
+
+/* VIDEO TRAININGS */
+div.videoTrainingViewSingle .title {
+	font-size: 16pt;
+}
+div.videoTrainingViewSingle .description {
+	line-height: 120%;
+	font-size: 11pt;
+	margin: -10px 0 0 0;
+}
+#content div.videoTrainingViewSingle .description a {
+	text-decoration: underline;
+}
+
+div.videoTrainingItemsList {
+	margin: 10px 0 0 0px;
+}
+
+div.videoTrainingItemsList div.header {
+	margin: 0 0 40px 0;
+	padding: 0 0 10px 0;
+}
+
+div.videoTrainingItemsList div.video {
+	padding: 0;
+}
+
+div.videoTrainingItemsList div.videoNotFound {
+	color: red;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+div.videoTrainingItemsList div.videoTrainingItemInfoLine {
+	color: #555;
+	background-color: #ddd;
+	font-size: 9pt;
+	line-height: 150%;
+	padding: 0 0 0 5px;
+	margin: 0 0 5px 0;
+}
+
+span.reviewed {
+	color: #333;
+}
+
+span.notReviewed {
+	color: brown;
+}
+
+span.issues {
+	color: brown;
+}
+
+span.stars {
+	color: #B45F04;
+}
+
+span.nuggets {
+	color: green;
+}
+
+div.videoTrainingItemsStats {
+	background-color: #eee;
+	margin: 10px 0 10px 20px;
+	padding: 4px 8px;
+	line-height: 120%;
+	font-size: 8pt;
+}
+
+div.explanationKey div.header {
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+}
+#content div.explanationKey {
+	background-color: #eee;
+	margin: 10px 0 10px 0px;
+	padding: 4px 0 10px 15px;
+	line-height: 120%;
+	font-size: 8pt;
+}
+#content div.explanationKey p {
+	margin: 0;
+}
+
+span.notReviewedVideo {
+	color: #888;
+}
+
+/*FORM*/
+form {
+	margin: 20px;
+}
+
+form p.title {
+	color: #555;
+	margin: 0 0 0 -20px;
+	font-size: 10pt;
+}
+
+form textarea.datatypeParagraph {
+	width: 500px;
+	height: 100px;
+	font-size: 9pt;
+	margin: 0 0 10px 0;
+}
+
+form div.datatypeParagraph {
+	background-color: #eee;
+	padding: 10px;
+	width: 485px;
+	height: 100px;
+	overflow: auto;
+	font-size: 9pt;
+	line-height: 140%;
+}
+
+
+form p.topLabel {
+	color: #888;
+	margin: 0 0 0 0;	
+}
+
+p.copyPasteTextTitle {
+	margin: 20px 0 0 0;
+	font-size: 8pt;
+}
+
+div.copyPasteText {
+	background-color: #eee;
+	padding: 10px;
+	width: 480px;
+	height: 200px;
+	overflow: auto;
+	font-size: 9pt;
+	line-height: 140%;
+	margin: 0 0 0 20px;
+}
+
+div.separator {
+	border-top: 5px solid green;
+	width: 550px;
+	margin: 30px auto 10px auto;
+}
+
+p.attachedVideoNote {
+	color: black;
+	margin: 0px 0 0px 15px;
+	font-style: italic;
+	font-size: 8pt;
+}
+
+span.starFilled {
+	color: brown;
+}
+
+span.starUnfilled {
+	color: #999;
+}
+
+div.submenu {
+	margin: 5px 0 10px 35px;
+	font-size: 8pt;	
+}
+
+div.submenu a {
+	font-size: 8pt;
+	color: #aaa;
+}
+
+div.submenu span.selected {
+	color: #000;
+}
+
+div.debug {
+	background-color: #ccc;
+	font-family: courier;
+	font-size: 11pt;
+	color: #000;
+	margin: 10px;
+	padding: 10px;
+}
+div.debug p {
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+}
+div.debug p span.label {
+	color: navy;
+	font-weight: bold;
+}
+div.debug p span.value {
+	color: red;
+}
+
+div#editThisPage {
+	margin: 0 0 0 20px;
+}
+
+div#editThisPage p {
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+}
+
+
+span.highlight {
+	color:red;
+}

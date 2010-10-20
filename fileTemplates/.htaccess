@@ -1,0 +1,3 @@
+<FilesMatch "\.(sqlite|xml|txt|csv|php)$">
+Deny from all
+</FilesMatch>
